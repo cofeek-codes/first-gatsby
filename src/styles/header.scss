@@ -1,0 +1,27 @@
+.header__wrapper {
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+    padding: 15px 0;
+    .header__title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+.header__nav-list__item-link {
+    color: white;
+}
+.header__nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__nav-list__item {
+    margin-right: 20px;
+    &:last-child {
+        margin: 0;
+    }
+}
